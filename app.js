@@ -36,4 +36,4 @@ function update() {
   $("#pw").text(pw);
 }
 
-setInterval(update, 750);
+setInterval(update, 200);
