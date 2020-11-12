@@ -13,7 +13,7 @@ $("#selected").click(function() {
     console.log('delete');
     var newPw = pw.slice(0, -1);
     pw = newPw;
-  } else if (ch = "space") {
+  } else if (ch == "space") {
     pw = pw.concat(" ");
   } else {
     pw = pw.concat(ch);
