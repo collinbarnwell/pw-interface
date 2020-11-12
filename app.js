@@ -14,7 +14,7 @@ $("#selected").click(function() {
     var newPw = pw.slice(0, -1);
     pw = newPw;
   } else if (ch == "space") {
-    pw = pw.concat('&nbsp ');
+    pw = pw.concat(&nbsp);
   } else {
     pw = pw.concat(ch);
   }
